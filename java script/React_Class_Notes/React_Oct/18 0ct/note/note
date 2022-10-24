@@ -1,0 +1,8 @@
+Local devlopment-using react===> build local ====> deploy production 
+
+ 1)in first npm start to check project view
+ 2)then help of c button stop the project and run npmrun build
+ 3)install this palkage npm install -g serve
+ 4)for run serve -s build
+ 5)it given one localhoat then check ir for production website also 
+ 6)Deploy on netlify same like .

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  
+     var a = new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("a")
+        },1000);
+     })
+
+     
+    var b = new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("b")
+        },2000);
+     })
+
+     var c = new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("c")
+        },3000);
+     })
+
+
+     a.then((aData)=>{
+        b.then((bData)=>{
+          c.then((cData)=>{
+             console.log(aData,bData,cData);
+           })
+        })
+     });
+
+
+
+
+
+
+
+
+
+        
+
+    </script>
+</body>
+</html>

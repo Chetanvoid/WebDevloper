@@ -1,0 +1,38 @@
+{
+  "product": [
+    {
+      "title": "gggr",
+      "amount": "44f",
+      "duration": "44",
+      "id": 4
+    },
+    {
+      "title": "u",
+      "amount": "5",
+      "duration": "5",
+      "id": 5
+    },
+    {
+      "title": "tgyt",
+      "amount": "5",
+      "duration": "5",
+      "id": 6
+    }
+  ],
+  "registration": [
+    {
+      "id": 1,
+      "fullName": "akash",
+      "age": 23,
+      "subject": "maths",
+      "address": "bangalore"
+    },
+    {
+      "fullName": "rakesh",
+      "age": 23,
+      "subject": "commerce",
+      "address": "delhi",
+      "id": 2
+    }
+  ]
+}

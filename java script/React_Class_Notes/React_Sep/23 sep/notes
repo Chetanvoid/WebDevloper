@@ -1,0 +1,6 @@
+==> UseEffect is one type of callback funtion.
+
+==> Constructor is used to initialize the data.
+
+==> React.strickmode(for render everything in 
+    two time for checking purpose)

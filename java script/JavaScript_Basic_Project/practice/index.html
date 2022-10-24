@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+            <form>
+                fullName:<input type="text" id="fullName" onselect="onSelectHandler(event)" />
+                <br/>
+                <br/>
+                lastName:<input type="text" id="lastName" onselect="onSelectHandler(event)" />
+                <br/>
+                <br/>
+                <button>Submit</button>
+            </form>
+            <script>
+                function onSelectHandler(event){
+                    var list = document.getElementById(event.target.id);
+                     list.style.color = "red";
+                }
+                
+            </script>
+      
+    </body>
+</html>

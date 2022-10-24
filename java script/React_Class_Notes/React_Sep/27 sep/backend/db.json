@@ -1,0 +1,29 @@
+{
+  "classtable": [
+    {
+      "id": 1,
+      "product": "mobilt",
+      "amount": "3666"
+    },
+    {
+      "id": 2,
+      "product": "iphonr",
+      "amount": "5999"
+    },
+    {
+      "product": "gg",
+      "amount": "2",
+      "id": 3
+    },
+    {
+      "product": "gg",
+      "amount": "2",
+      "id": 4
+    },
+    {
+      "product": "gg",
+      "amount": "2555",
+      "id": 5
+    }
+  ]
+}
